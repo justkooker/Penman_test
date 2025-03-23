@@ -16,7 +16,7 @@ let currentIndex = 0;
 const scaleFactor = 0.003;
 
 async function loadData() {
-  const response = await fetch("../data/data.json");
+  const response = await fetch("/data/data.json");
   data = await response.json();
 }
 
